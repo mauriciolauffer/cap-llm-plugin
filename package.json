@@ -1,0 +1,35 @@
+{
+  "name": "cap-llm-plugin",
+  "version": "1.3.3",
+  "description": "CAP LLM Plugin helps developers create tailored Generative AI based CAP applications.",
+  "main": "cds-plugin.js",
+  "files": [
+    "lib",
+    "srv",
+    "docs"
+  ],
+  "keywords": [
+    "cap-llm-plugin",
+    "CAP application",
+    "SAP HANA Cloud Anonymization",
+    "SAP HANA Cloud Vector Store",
+    "Similarity Search",
+    "RAG",
+    "SAP AI Core"
+  ],
+  "author": "SAP SE",
+  "license": "Apache-2.0",
+  "cds": {
+    "requires": {
+      "kinds": {
+        "cap-llm-plugin": {
+          "impl": "cap-llm-plugin/srv/cap-llm-plugin.js",
+          "vcap": {
+            "label": "hana",
+            "plan": "hdi-shared"
+          }
+        }
+      }
+    }
+  }
+}
