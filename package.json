@@ -8,6 +8,10 @@
     "srv",
     "docs"
   ],
+  "peerDependencies": {
+    "@sap/cds": ">=7",
+    "@sap/cds-hana": "^2"
+  },
   "keywords": [
     "cap-llm-plugin",
     "CAP application",
