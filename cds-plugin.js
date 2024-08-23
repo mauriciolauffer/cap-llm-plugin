@@ -1,4 +1,4 @@
-// const cds = require("@sap/cds")
+//const cds = require("@sap/cds")
 const { createAnonymizedView } = require("./lib/anonymization-helper.js")
 
 if (cds.requires["cap-llm-plugin"]) {
@@ -39,4 +39,3 @@ if (cds.requires["cap-llm-plugin"]) {
   )
 
 }
-
