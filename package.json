@@ -1,6 +1,6 @@
 {
   "name": "cap-llm-plugin",
-  "version": "1.3.3",
+  "version": "1.4.2",
   "description": "CAP LLM Plugin helps developers create tailored Generative AI based CAP applications.",
   "main": "cds-plugin.js",
   "files": [
@@ -8,10 +8,6 @@
     "srv",
     "docs"
   ],
-  "peerDependencies": {
-    "@sap/cds": ">=7",
-    "@sap/cds-hana": "^2"
-  },
   "keywords": [
     "cap-llm-plugin",
     "CAP application",
